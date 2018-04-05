@@ -17,7 +17,7 @@
 	padding-left: 75%;
 	padding-right: 10%;
 	padding-top : 3%;
-	padding-bottom: 95%;
+	
 }
 .buttonbackward {
 	padding-left: 75%;
@@ -28,35 +28,43 @@
 
 
 body {
+	padding-top: 3.5%;
     margin: 0;
 	background-color: #ECEBEB;
 }
 
-ul {
+.summary {
+	float: right;
+	padding-right: 30%;	
+	
+}
+
+
+.sidebar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 15%;
-	min-width: 10%;
+	min-width: 15%;
     background-color: #f1f1f1;
     position: fixed;
     height: 100%;
     overflow: auto;
 }
 
-li a {
+.sidebar li a {
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
 }
 
-li a.active {
+.sidebar li a.active {
     background-color: #4CAF50;
     color: white;
 }
 
-li a:hover:not(.active) {
+.sidebar li a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
@@ -68,9 +76,8 @@ li a:hover:not(.active) {
 	min-width: 28%;
     padding-left: 17.5%;
 	overflow: hidden;
-	padding-right: 33%;
-	padding-top: 3%;
-	
+	padding-right: 10%;
+	padding-top: .2%;
 }
 
 
@@ -128,6 +135,7 @@ font-style: italic;
 	
 }
 
+/*please shoot me at this point*/
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -138,6 +146,7 @@ font-style: italic;
     text-decoration: none;
     font-size: 17px;
 }
+
 
 /* Change the color of links on hover */
 .topnav a:hover {
