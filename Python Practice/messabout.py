@@ -28,6 +28,7 @@ def dagger_att(name):
             
         else:
             print("You ran away")
+            exit()
 
 
       
